@@ -22,18 +22,20 @@ export default class Configuration {
       modalMainTextMoreLink: null,
       barTimeout: 1000,
       theme: {
-        barColor: '#2C7CBF',
-        barTextColor: '#FFF',
-        barMainButtonColor: '#FFF',
-        barMainButtonTextColor: '#2C7CBF',
-        modalMainButtonColor: '#4285F4',
-        modalMainButtonTextColor: '#FFF',
+        barColor: '#2b7abb',
+        barTextColor: '#fff',
+        barMainButtonColor: '#fff',
+        barMainButtonTextColor: '#2b7abb',
+        modalMainButtonColor: '#1e6ef4',
+        modalMainButtonTextColor: '#fff',
+        focusColor: 'rgb(40 168 52 / 75%)',
       },
       language: {
         current: 'en',
         locale: {
           en: {
             barMainText: 'This website uses cookies to ensure you get the best experience on our website.',
+            closeAriaLabel: 'close',
             barLinkSetting: 'Cookie Settings',
             barBtnAcceptAll: 'Accept all cookies',
             modalMainTitle: 'Cookie settings',
@@ -44,9 +46,14 @@ export default class Configuration {
             learnMore: 'Learn More',
             on: 'On',
             off: 'Off',
+            enabled: 'is enabled.',
+            disabled: 'is disabled.',
+            checked: 'checked',
+            unchecked: 'unchecked',
           },
           hu: {
             barMainText: 'Ez a weboldal Sütiket használ a jobb felhasználói élmény érdekében.',
+            closeAriaLabel: 'bezár',
             barLinkSetting: 'Süti beállítások',
             barBtnAcceptAll: 'Minden süti elfogadása',
             modalMainTitle: 'Süti beállítások',
@@ -57,6 +64,10 @@ export default class Configuration {
             learnMore: 'Tudj meg többet',
             on: 'Be',
             off: 'Ki',
+            enabled: 'bekapcsolva.',
+            disabled: 'kikapcsolva.',
+            checked: 'kipipálva',
+            unchecked: 'nincs kipipálva',
           }
         }
       },
